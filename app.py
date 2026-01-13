@@ -7,14 +7,14 @@ from crewai import Agent, Task, Crew, LLM
 from crewai_tools import SerperDevTool
 import google.generativeai as genai
 import os
-os.environ["SERPER_API_KEY"] = "2731c5b01b9f3149ae6f898a924a41646f117f77"
+os.environ["SERPER_API_KEY"] = "YOUR_API_KEYS"
 
 #Export your gemini key and seper api key
 search_tool = SerperDevTool()
 
 gemini_llm = LLM(
     model="gemini/gemini-2.5-flash",
-    api_key="AIzaSyDvfnmh-x0V-RMDRh22PFJ9wLGWXq3auIg", # Or leave out if set in environment
+    api_key="YOUR_API_KEY", 
     temperature=0.7
 )
 
@@ -56,5 +56,6 @@ crew = Crew(
 
 result = crew.kickoff()
 print(result)
+
 
 
