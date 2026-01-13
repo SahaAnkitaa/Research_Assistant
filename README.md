@@ -7,7 +7,7 @@ Creating a Research Assistant Agent using Crew AI
 
 Output snapshot:
 
-PS C:\Users\sahaa\Desktop\Data Science Project\Research_Assistant_Crewai> python app.py
+
 ╭───────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────╮
 │                                                                                                                                                             │
 │  Agent: Market Researcher                                                                                                                                   │
@@ -307,7 +307,6 @@ ortunity to own the space of *premium, scientifically-backed cognitive enhanceme
     *   **Rationale:** While the positioning emphasizes functional benefits, the inherent nature of an energy drink implies effective caffeine delivery. The "meticulously crafted blend" also suggests attention to taste, ensuring that the health and functional benefits do not come at the expense of palatability, which is crucial for consumer adoption and loyalty.
 
 In summary, ElevateMind's positioning strategy is built on a foundation of scientific efficacy, clean ingredients, a smooth energy experience, and a clear focus on mental performance for a discerning audience. This allows it to stand out in a crowded market by addressing unmet needs and aligning with the evolving preferences of modern, health-conscious consumers.
-PS C:\Users\sahaa\Desktop\Data Science Project\Research_Assistant_Crewai>
 
 
 
