@@ -7,7 +7,7 @@ from crewai import Agent, Task, Crew, LLM
 from crewai_tools import SerperDevTool
 import google.generativeai as genai
 import os
-os.environ["SERPER_API_KEY"] = "YOUR_API_KEYS"
+os.environ["SERPER_API_KEY"] = "YOUR_API_KEY"
 
 #Export your gemini key and seper api key
 search_tool = SerperDevTool()
@@ -56,6 +56,7 @@ crew = Crew(
 
 result = crew.kickoff()
 print(result)
+
 
 
 
